@@ -445,7 +445,7 @@
                     <label class="form-label extra-small fw-bold">Material / Item Code Change (If
                       required)</label>
                     <div class="input-group mb-2">
-                      <input type="text" class="form-control fw-bold border-primary" value="MAT-8802" />
+                      <input type="text" class="form-control fw-bold border-primary" value="LC00000113" />
                       <button class="btn btn-dark" title="Change/Assign Code">
                         <i class="bi bi-pencil-square"></i>
                       </button>
@@ -486,7 +486,7 @@
                     <thead>
                       <tr>
                         <th>Department</th>
-                        <th>Select User</th>
+                        <!-- <th>Select User</th> -->
                         <th width="120">Qty Split</th>
                         <th width="50"></th>
                       </tr>
@@ -499,15 +499,15 @@
                             <option>Stores</option>
                           </select>
                         </td>
-                        <td>
+                        <!-- <td>
                           <select class="form-select form-select-sm">
                             <option>Rahul Bajaj (Emp-101)</option>
                             <option>Anika Singh (Emp-105)</option>
                           </select>
-                        </td>
+                        </td> -->
 
                         <td>
-                          <input type="number" class="form-control form-control-sm qty-split-input" value="150" />
+                          <input type="number" class="form-control form-control-sm qty-split-input" value="5" />
                         </td>
                         <td class="text-end">
                           <i class="bi bi-trash3 text-danger cursor-pointer"></i>
@@ -550,7 +550,7 @@
                           <input type="date" class="form-control form-control-sm" />
                         </td>
                         <td>
-                          <input type="number" class="form-control form-control-sm qty-split-input" value="150" />
+                          <input type="number" class="form-control form-control-sm qty-split-input" value="5" />
                         </td>
                         <td class="text-end">
                           <i class="bi bi-trash3 text-danger cursor-pointer"></i>
@@ -577,7 +577,7 @@
                         <th>Item</th>
                         <th>Batch</th>
                         <th>Department</th>
-                        <th>User</th>
+                        <!-- <th>User</th> -->
                         <th width="120">Qty Split</th>
                         <th width="50"></th>
                       </tr>
@@ -585,8 +585,11 @@
                     <tbody>
                       <tr>
                         <td>
-                          <input type="text" class="form-control form-control-sm" value="RM001" />
-                        </td>
+                          <input type="text"
+                                class="form-control form-control-sm"
+                                value="LC00000113"
+                                disabled />
+                      </td>
                         <td>
                           <input type="text" class="form-control form-control-sm" value="BATCH-APR-001" />
                         </td>
@@ -597,14 +600,14 @@
                             <option>Stores</option>
                           </select>
                         </td>
-                        <td>
+                        <!-- <td>
                           <select class="form-select form-select-sm">
                             <option>Rahul Bajaj (Emp-101)</option>
                             <option>Anika Singh (Emp-105)</option>
                           </select>
-                        </td>
+                        </td> -->
                         <td>
-                          <input type="number" class="form-control form-control-sm qty-split-input" value="150" />
+                          <input type="number" class="form-control form-control-sm qty-split-input" value="5" />
                         </td>
                         <td class="text-end">
                           <i class="bi bi-trash3 text-danger cursor-pointer"></i>
@@ -685,7 +688,7 @@
         </div>
         <div class="modal-footer bg-light">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-          <button type="button" class="btn btn-premium px-4">Update Allocation</button>
+          <button type="button" class="btn btn-premium px-4">Allocate</button>
         </div>
       </div>
     </div>
